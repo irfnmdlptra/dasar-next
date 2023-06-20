@@ -1,4 +1,7 @@
 export default function Home() {
+    function text() {
+        return <p>saya</p>
+    }
     return (
         <>
         <Button desc="NAMA"/>
