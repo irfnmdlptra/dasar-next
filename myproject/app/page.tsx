@@ -6,5 +6,12 @@ export default function Home() {
   function tambah() {
     setState(state + 1);
   }
-  return <h1>helloworld!</h1>;
+  return <>
+
+<h1>{state}!</h1>;
+<button onClick={tambah}></button>
+
+  </>
+  
+
 }
