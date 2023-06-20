@@ -1,4 +1,4 @@
-const Button = (props) => {
+function Button(props) {
     return <button onClick={onClick}>{props.desc}</button>
 }
 export default function Home() {
