@@ -7,7 +7,7 @@ function Button(props) {
 export default function Home() {
     return (
         <>
-        <Button onClick={text} desc="NAMA"/>
+        <Button  desc="NAMA"/>
         <Button desc="NAMA"/>
         </>
     )
