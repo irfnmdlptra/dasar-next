@@ -1,7 +1,7 @@
+import { useClient } from "next/client";
 import React, { useState } from "react";
-import { useCLi}
 
-export default function Home() {
+export default useClient(function Home() {
   const [state, setState] = useState(0);
 
   function tambah() {
@@ -14,4 +14,4 @@ export default function Home() {
       <button onClick={tambah}>Increment</button>
     </>
   );
-}
+});
