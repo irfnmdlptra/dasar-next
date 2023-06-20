@@ -1,9 +1,9 @@
 import { useState } from "react";
 
 function Button(props) {
-    const [text, setText] = useState
+    const [text, setText] = useState(0)
   function text() {
-    return <p>saya</p>;
+    setText(text + 1)
   }
   return <button onClick={text}>{props.desc}</button>;
 }
