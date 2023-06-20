@@ -4,12 +4,12 @@ export default function Home() {
     }
     return (
         <>
-        <Button desc="NAMA"/>
+        <Button onClick="text" desc="NAMA"/>
         <Button desc="NAMA"/>
         </>
     )
 }
 
 const Button = (props) => {
-    return <button onClick={}>{props.desc}</button>
+    return <button onClick={onClick}>{props.desc}</button>
 }
