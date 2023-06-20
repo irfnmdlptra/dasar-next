@@ -1,10 +1,10 @@
 function Button(props) {
-    return <button onClick={onClick}>{props.desc}</button>
-}
-export default function Home() {
     function text() {
         return <p>saya</p>
     }
+    return <button onClick={text}>{props.desc}</button>
+}
+export default function Home() {
     return (
         <>
         <Button onClick={text} desc="NAMA"/>
