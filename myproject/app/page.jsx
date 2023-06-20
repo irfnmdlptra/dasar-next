@@ -5,13 +5,13 @@ function Button(props) {
   function stext() {
     setText(text + 1);
   }
-  return <button onClick={text}>{text}</button>;
+  return <button onClick={stext}>{props.desc{text}</button>;
 }
 export default function Home() {
   return (
     <>
-      <Button desc="NAMA" />
-      <Button desc="NAMA" />
+      <Button desc="makan"/>
+      <Button desc="minum"/>
     </>
   );
 }
