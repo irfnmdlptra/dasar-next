@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 function Button(props) {
+    const [text, setText] = useState
   function text() {
     return <p>saya</p>;
   }
