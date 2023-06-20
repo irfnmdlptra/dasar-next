@@ -1,3 +1,6 @@
+const Button = (props) => {
+    return <button onClick={onClick}>{props.desc}</button>
+}
 export default function Home() {
     function text() {
         return <p>saya</p>
@@ -8,8 +11,4 @@ export default function Home() {
         <Button desc="NAMA"/>
         </>
     )
-}
-
-const Button = (props) => {
-    return <button onClick={onClick}>{props.desc}</button>
 }
