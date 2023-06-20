@@ -2,10 +2,10 @@ import { useState } from "react";
 
 function Button(props) {
     const [text, setText] = useState(0)
-  function text() {
-    setText(text + 1)
+  function stext() {
+    setText(text + 1);
   }
-  return <button onClick={text}>{props.desc}</button>;
+  return <button onClick={text}>{text}</button>;
 }
 export default function Home() {
   return (
