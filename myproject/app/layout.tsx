@@ -17,10 +17,10 @@ export default function RootLayout({
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/settings">Settings</Link>
           </li>
         </ul>
         {children}
