@@ -1,5 +1,5 @@
 import { useRouter } from "next/router"
-
+import { useNavigation } from 'next/navigation';
 export default function Section() {
     const router = useRouter()
     const next = (url:string) => {
