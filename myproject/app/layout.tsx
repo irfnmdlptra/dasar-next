@@ -22,6 +22,12 @@ export default function RootLayout({
           <li>
             <Link href="/settings">Settings</Link>
           </li>
+          <li>
+            <Link href="/blog">blog</Link>
+          </li>
+          <li>
+            <Link href="/calculator">Calculator</Link>
+          </li>
         </ul>
         {children}
       </body>
