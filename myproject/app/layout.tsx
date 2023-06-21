@@ -16,8 +16,12 @@ export default function RootLayout({
           <li>
             <Link href="/">Home</Link>
           </li>
-          <li>Dashboard</li>
-          <li>Setiings</li>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
         </ul>
         {children}
       </body>
