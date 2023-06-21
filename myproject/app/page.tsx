@@ -1,4 +1,3 @@
-import "../public/src/styles/global.";
 
 export default function Home() {
   return (
