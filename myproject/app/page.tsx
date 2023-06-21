@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div>
       <ul>
-        <li>Home</li>
+        <li><Link href="/">Home</Link></li>
         <li>Dashboard</li>
         <li>Setiings</li>
       </ul>
