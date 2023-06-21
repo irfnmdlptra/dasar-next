@@ -1,1 +1,3 @@
-export default funct
+export default function Dashboard() {
+    return <div>Dashboard</div>
+}
