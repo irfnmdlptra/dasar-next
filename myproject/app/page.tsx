@@ -1,4 +1,7 @@
+import "../public/src/styles/global.css";
+
 export default function Home() {
+
   return <div>
     <ul>
       <li>Home</li>
