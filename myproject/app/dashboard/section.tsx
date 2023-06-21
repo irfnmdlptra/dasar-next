@@ -1,3 +1,3 @@
 export default function Section() {
-    return
+    return <button>Section Button</button>
 }
